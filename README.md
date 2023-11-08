@@ -33,16 +33,24 @@ $ php artisan migrate:fresh --seed
 $ php artisan serve
 ```
 
--   account default login
+-    ubah settingan console laravel jadi kek digambar (kalau kena error)
+-    file path
+    ```
+\vendor\laravel\framework\src\Illuminate\Foundation\Console\ServeCommand.php
+    ```
+      ![Screenshot (10)](https://github.com/kurodoke/pbkntol/assets/85819319/787c538a-8f95-40ab-b55e-b93b5bae91b9)
 
-##### Administrator
+
+#### Account default login
+
+-    Administrator
 
 ```
 Email       : admin@gmail.com
 Password    : hadeh123
 ```
 
-##### Mahasiswa
+-    Mahasiswa
 
 ```
 Email       : mahasiswa@gmail.com
