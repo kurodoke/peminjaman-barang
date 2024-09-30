@@ -1,50 +1,53 @@
-### instalasi
+# Installation
 
--   clone repo / download repo
+-   Clone or download the repository.
 
--   install depedency
+-   Install dependencies:
 
-```bash
-$ npm install
-```
+    ```bash
+    $ npm install
+    ```
 
-```bash
-$ composer install
-```
+    ```bash
+    $ composer install
+    ```
 
--   buat DB = laravel
--   copy .env.example terus rename .env,.... atau langsung rename bisa jg, terserah 
--   generate key .env
+-   Create a database named `laravel`.
 
-```bash
-$ php artisan key:generate
-```
+-   Copy `.env.example` and rename it to `.env`, or directly rename it, whichever you prefer.
 
--   ubah appname jadi pbkntol
--   migrate database
+-   Generate the `.env` key:
 
-```bash
-$ php artisan migrate:fresh --seed
-```
+    ```bash
+    $ php artisan key:generate
+    ```
 
--   serve
+-   Change the `APP_NAME` in `.env` to `Pb`.
 
-```bash
-$ php artisan serve
-```
+-   Run the database migrations:
 
--   account default login
+    ```bash
+    $ php artisan migrate:fresh --seed
+    ```
 
-##### Administrator
+-   Serve the application:
 
-```
-Email       : admin@gmail.com
-Password    : hadeh123
-```
+    ```bash
+    $ php artisan serve
+    ```
 
-##### Mahasiswa
+-   Default login credentials:
 
-```
-Email       : mahasiswa@gmail.com
-Password    : hadeh123
-```
+    ### Administrator
+
+    ```
+    Email : admin@gmail.com
+    Password : hadeh123
+    ```
+
+    ### Student
+
+    ```
+    Email : mahasiswa@gmail.com
+    Password : hadeh123
+    ```
